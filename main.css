@@ -1,0 +1,115 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
+  background-image: url("464859.jpg");
+  background-size: cover;
+  background-position: top center;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 110vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input {
+  width: 100%;
+  min-width: 250px;
+  max-width: 500px;
+  background-color: rgb(255, 255, 255);
+  padding: 7px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  border-bottom: 3px solid rgb(0, 110, 255);
+  font-size: small;
+  font-weight: 200;
+  transition: 0.3s ease-out;
+}
+
+header input:focus {
+  background-color: rgb(167, 184, 240);
+  border-bottom: 3px solid rgb(0, 110, 255);
+}
+
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.location .city {
+  color: aliceblue;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.location .date {
+  color: aliceblue;
+  font-size: 16px;
+}
+
+.current .temp {
+  color: aliceblue;
+  font-size: 100px;
+  font-weight: 700;
+  margin: 30px 0px;
+  text-shadow: 2px 6px rgb(49, 49, 49);
+  font-family: "montserrat";
+}
+
+.current .temp span {
+  font-weight: 500;
+}
+
+.current .weather {
+  color: aliceblue;
+  font-size: 35px;
+  margin-bottom: 15px;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+.current .hi-low {
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: 500;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.current .humidity {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 500;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.current .feelsLike {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 500;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.current .wind {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 500;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
